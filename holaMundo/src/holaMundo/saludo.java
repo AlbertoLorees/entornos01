@@ -3,7 +3,10 @@ package holaMundo;
 public class saludo {
 
 	public static void main(String[] args) {
-		System.out.println("Hola clase");
+		Mensaje m = new Mensaje();
+		m.setEmisor("hola");
+		System.out.println(m);
+		
 
 	}
 
